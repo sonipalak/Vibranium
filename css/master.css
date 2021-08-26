@@ -110,7 +110,41 @@ a, a:active, a:focus, a:hover {
     
 }
 /*EOf Header Style******************************/
-
+/*BOF Navigation***********************************/
+.nevigaion{
+    position:fixed;display:table;top:0;right:0;z-index:9998;background:#fff;height:100%;padding:20px 100px 108px 100px;outline:1px solid transparent;
+    -webkit-transform:translateX(100%);transform:translateX(100%);visibility:hidden;
+    -webkit-transition:-webkit-transform .6s,visibility 0s .6s;transition:transform .6s,visibility 0s .6s;
+}
+.nevigaion.navOpen{visibility:visible;-webkit-transform:translateX(0%);transform:translateX(0%);-webkit-transition:-webkit-transform .6s;transition:transform .6s;}
+.navClose{position:absolute;top:40px;right:40px;}
+.navLinksContainer{display:table-cell;vertical-align:middle;}
+.navFooter{text-align:center;width:100%;position:absolute;bottom:0;left:0;}
+.navLinksContainer h1{text-align:center;margin-bottom:45px;}
+.navLinksContainer ul{padding:0;margin:0;list-style:none;}
+.navLinksContainer ul li{text-align:center;padding:5px 0;}
+.navLinksContainer ul li a{
+    font-family: 'Helvetica Regular';font-size:24px;color:#000000;text-decoration:none;padding:5px 15px;display:inline-block;
+    border:#ffffff solid 1px;
+}
+.navLinksContainer ul li a:hover, .navLinksContainer ul li a.active{
+    border:#0085de solid 1px;color:#0085de;
+}
+.navFooter .buy-btn{
+    font-family:'Helvetica Bold';font-size:18px;color:#ffffff;text-decoration:none;display:inline-block;
+    padding:10px 20px;background-color:#d80650;text-transform:uppercase;margin-bottom:45px;
+}
+.navFooter .buy-btn:hover{background-color:#0063d9;}
+.navFooter .connect-with-us h2{
+    font-family: 'Microsoft Sans Serif';font-size:16px;
+}
+.navFooter .connect-with-us span{display:inline-block;padding:10px 0;}
+.navFooter .connect-with-us span a{padding:0 10px;}
+.navFooter .connect-with-us span a i{font-size:22px;}
+.navFooter .connect-with-us span a.facebook{color:#33448b}
+.navFooter .connect-with-us span a.twitter{color:#37a2ff}
+.navFooter .connect-with-us span a.instagram{color:#000000}
+/*EOF Navigation***********************************/
 /*BOf Home Banner Style******************************/
 .home-banner{
     min-height:1118px;background-color:#003c87;

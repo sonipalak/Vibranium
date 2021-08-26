@@ -68,4 +68,13 @@ $(window).scroll(function() {
         });
 
 
-        
+        $('#navToggle').on('click', function(e) {
+			$('#navContainer').toggleClass("navOpen"); //you can list several class names 
+			$('body').toggleClass("overflow-hidden");
+			e.preventDefault();
+		  });
+		  $('#navClose').on('click', function(e) {
+			$('#navContainer').removeClass("navOpen"); //you can list several class names 
+			$('body').removeClass("overflow-hidden");
+			e.preventDefault();
+		  });
