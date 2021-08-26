@@ -113,14 +113,14 @@ a, a:active, a:focus, a:hover {
 
 /*BOf Home Banner Style******************************/
 .home-banner{
-    min-height:1024px;background-color:#003c87;
+    min-height:1118px;background-color:#003c87;
     background-image:url(../images/banner.jpg);background-repeat:no-repeat;
 
 }
 /*EOf Home Banner Style******************************/
 /*BOf Home Product Slider Style******************************/
 .products-slider{
-    padding:0 0 100px 0;margin:-50px 0 0 0;
+    padding:0 0 50px 0;margin:-25px 0 0 0;
 }
 /*EOf Home Product Slider Style******************************/
 /*BOf Home Comprehensive Style******************************/
@@ -160,7 +160,10 @@ a, a:active, a:focus, a:hover {
 .tow-col-section{padding:100px 0;}
 .mission-section h1{font-family:'Helvetica Bold';font-size:40px;text-transform:uppercase;}
 .mission-section p{font-family:'Microsoft Sans Serif';font-size:16px;margin:0;padding:0;}
-
+@media (max-width:991px){
+    .mission-section .text-start, .mission-section .text-end{text-align: center!important;}
+}
+/********************
 /**************************/
 .Why-Vibranium-section{padding:100px 0 0 0;background-color:#0063d9}
 .Why-Vibranium-section .head-of-wv{text-align:center;}
@@ -245,6 +248,15 @@ a, a:active, a:focus, a:hover {
 .feature-section p{font-family:'Microsoft Sans Serif';font-size:16px;color:#ffffff;line-height:26px;}
 .feature-section a{font-family:'Helvetica Bold';font-size:18px;color:#ffffff;background-color:#d80650;display:inline-block;padding:15px 25px;text-decoration:none;text-transform:uppercase;}
 .feature-section a:hover{background-color:#3190E7;}
+@media (max-width:1445px){
+    .feature-section{flex-wrap:wrap;}
+    .feature-section p br{display:none;}
+}
+@media (max-width:992px){
+    .feature-section{background-color:#1a1a1a;min-height:500px;padding:25px 25px 280px 25px;justify-content:flex-start;align-items:flex-start;background-position:center bottom;}
+    .feature-section p br{display:none;}
+    .feature-section .feature-man-img{left:50%;margin-left:-107px;}
+}
 /**********************************************/
 .testimonial-section{padding:0 0 100px 0;}
 .testimonial-header{margin-bottom:45px;}
@@ -283,7 +295,9 @@ a, a:active, a:focus, a:hover {
 .footer-section .footer-product-list ul{list-style:none;padding:0;margin:0;}
 .footer-section .footer-product-list ul li a{font-family:'Microsoft Sans Serif';font-size:14px;color:#cbcbcb;text-decoration:none;padding-bottom:5px;display:inline-block;}
 .footer-dark-section{background-color:#0f0f0f;padding:10px 0;text-align:center;}
-.footer-dark-section span{
-    font-family:'Microsoft Sans Serif';font-size:14px;color:#cbcbcb;
+.footer-dark-section span{font-family:'Microsoft Sans Serif';font-size:14px;color:#cbcbcb;}
+@media (max-width:991px){
+    .footer-section .footer-product-list{border-top:#333333 solid 1px;border-left:0px;padding:25px 0 0 0;margin:25px 0 0 0;}
+    .footer-dark-section{margin-top:25px;}
 }
 /*EOF Footer Section************************************/
