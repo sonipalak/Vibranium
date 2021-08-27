@@ -394,3 +394,15 @@ a, a:active, a:focus, a:hover {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
     background:#0365e0;
 }
+/*****************************/
+#back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
