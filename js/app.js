@@ -78,3 +78,7 @@ $(window).scroll(function() {
 			$('body').removeClass("overflow-hidden");
 			e.preventDefault();
 		  });
+
+
+
+		  $("#demo2").logosDistort();

@@ -62,10 +62,12 @@ h2.resp-accordion {
 
 h2.resp-accordion {
     font-size: 13px;
-    border: 1px solid #c1c1c1;
+    border: 0px solid #c1c1c1;
     border-top: 0px solid #c1c1c1;
     margin: 0px;
     padding: 10px 15px;
+    background-color:transparent !important;
+    font-family:'Helvetica Bold';font-size:18px;
 }
 
 h2.resp-tab-active {
@@ -161,7 +163,7 @@ h2.resp-tab-active {
 }
 
 h2.resp-accordion:first-child {
-    border-top: 1px solid #c1c1c1;/* !important;*/
+    border-top: 0px solid #c1c1c1;/* !important;*/
 }
 
 /*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
