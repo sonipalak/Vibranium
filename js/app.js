@@ -7,42 +7,8 @@ $(window).scroll(function() {
         $(".header-section").removeClass("light-header");
     }
 });
-		$(document).on('ready', function() {
-		  $(".center").slick({
-			dots: true,
-			infinite: true,
-			centerMode: true,
-			slidesToShow: 5,
-			slidesToScroll: 3
-		  });
-		});
-		var popover = new bootstrap.Popover(document.querySelector('.virus-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.invincible-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.banking-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.realtime-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.accelerated-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.network-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.increased-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.undefendable-popover'), {
-		container: 'body'
-		})
-		var popover = new bootstrap.Popover(document.querySelector('.minimalistic-popover'), {
-		container: 'body'
-		})
+	
+		
 
 
 
