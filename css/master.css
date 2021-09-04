@@ -444,6 +444,7 @@ a, a:active, a:focus, a:hover,input:hover {
 .about-banner{background-image:url(../images/about-banner.jpg);}
 .download-center-banner{background-image:url(../images/download-center-banner.jpg);}
 .vibranium-threat-security-banner{background-image:url(../images/vibranium-threat-security-banner.jpg);}
+.products-banner{background-image:url(../images/products-banner.jpg);}
 .inner-banner .inner-banner-text{
     min-height:303px;display:flex;align-items:center;justify-content:center;flex-direction:column;
 }
@@ -672,4 +673,68 @@ a, a:active, a:focus, a:hover,input:hover {
 @media (max-width:767px){
     .need-help-section{flex-direction:column;}
     .need-help-section h1{padding-bottom:25px;text-align:center;}
+}
+/**************************************/
+.products-section{padding:100px 0;}
+.products-section .product-head{padding-bottom:45px;text-align:center;}
+.products-section .product-head h1{font-family: 'Helvetica Bold';font-size:40px;text-transform:uppercase;}
+.products-section .product-head h1 span{display:block;color:#0f68a1;font-family:'Helvetica Regular';font-size:20px;text-transform:none;padding-bottom:10px;}
+/***/
+.products-box{
+    background-color:#e1e6ec;min-height:515px;padding:25px;display:flex;align-items:center;justify-content:center;flex-direction:column;
+    position:relative;margin-bottom:25px;
+}
+.products-box .card-front h2{font-family:'Helvetica Regular';font-size:30px;text-align: center;padding-top: 25px;}
+.products-box .card-back{display:none;}
+.products-box:hover .card-back{
+    display:block;position:absolute;left:0;top:0;padding:55px;
+    background-color:#0063d9;width:100%;height:100%;text-align:center;
+}
+.products-box .card-back h2{
+    color:#ffffff;font-size:30px;font-family:'Helvetica Regular';padding-bottom:25px;
+}
+.products-box .card-back p{
+    color:#ffffff;font-size:16px;font-family:'Microsoft Sans Serif';min-height:150px;
+}
+.products-box .card-back .card-price{
+    color:#ffffff;font-size:28px;font-family:'Helvetica Regular';padding-bottom:25px;display:block;
+}
+.products-box .card-back .card-price label{
+    font-family: 'Helvetica Bold';
+}
+
+.products-box .card-back .card-action{
+    display:flex;align-items:center;justify-content:center;
+}
+.products-box .card-back .card-action a{
+    width:76px;height:76px;display:block;background-color:#014fac;border-radius:100px;margin:0 10px;
+}
+.products-box .card-back .card-action a:hover{
+    background-color:#d80650;
+}
+.product-arrow{padding:50px 0 100px 0;text-align:center;}
+.product-accordion h1{
+    font-family:'Helvetica Bold';font-size:24px;color:#d80650;border-bottom:#d1d1d1 solid 2px;text-align:center;
+    display:inline-block;padding:15px 30px;margin-bottom:45px;
+}
+.product-accordion h6{
+    font-family:'Helvetica Bold';font-size:24px;color:#000000;text-align:center;
+    display:inline-block;padding:15px 0;margin-top:15px;
+}
+.product-accordion .accordion-body{padding:0;}
+.product-accordion table{width:100%;}
+.product-accordion table tr td{text-align:center;width:33.33%;}
+.product-accordion .product-features-row{padding:10px 0;}
+.product-accordion .product-features-row:nth-child(2n - 2){background-color:#f0f0f0;}
+.product-accordion .product-features-row p{
+    font-family: 'Microsoft Sans Serif';font-size:20px;
+}
+.product-accordion .product-features-row p i.red-text{color:#d80650;}
+.product-accordion .product-features-row p i.blue-text{color:#0063d9;}
+.product-accordion .accordion .accordion-item .accordion-header .accordion-button{
+    outline:none;box-shadow:none;text-align:center!important;justify-content:center;
+    color:#0063d9;font-family:'Helvetica Bold';font-size:24px;display:block;
+}
+.product-accordion .accordion .accordion-item .accordion-header .accordion-button::after{
+    position:absolute;top:20px;right:10px;
 }
