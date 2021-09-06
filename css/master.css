@@ -411,8 +411,11 @@ a, a:active, a:focus, a:hover,input:hover {
 .footer-section .footer-product-list h1{font-family:'Helvetica Bold';font-size:20px;color:#0063d9;padding-bottom:10px;}
 .footer-section .footer-product-list ul{list-style:none;padding:0;margin:0;}
 .footer-section .footer-product-list ul li a{font-family:'Microsoft Sans Serif';font-size:14px;color:#cbcbcb;text-decoration:none;padding-bottom:5px;display:inline-block;}
+.footer-section .footer-make-in-india{padding-top:55px;}
+.footer-section .footer-make-in-india img{width:100px;}
 .footer-dark-section{background-color:#0f0f0f;padding:10px 0;text-align:center;margin:25px 0 0 0}
 .footer-dark-section span{font-family:'Microsoft Sans Serif';font-size:14px;color:#cbcbcb;}
+
 @media (max-width:991px){
     .footer-section .footer-product-list{border-top:#333333 solid 1px;border-left:0px;padding:25px 0 0 0;margin:25px 0 0 0;}
     .footer-dark-section{margin-top:25px;}
