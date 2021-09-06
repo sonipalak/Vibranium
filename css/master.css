@@ -445,6 +445,7 @@ a, a:active, a:focus, a:hover,input:hover {
 .download-center-banner{background-image:url(../images/download-center-banner.jpg);}
 .vibranium-threat-security-banner{background-image:url(../images/vibranium-threat-security-banner.jpg);}
 .products-banner{background-image:url(../images/products-banner.jpg);}
+.why-vibranium-banner{background-image:url(../images/why-vibranium-banner.jpg);}
 .inner-banner .inner-banner-text{
     min-height:303px;display:flex;align-items:center;justify-content:center;flex-direction:column;
 }
@@ -737,4 +738,66 @@ a, a:active, a:focus, a:hover,input:hover {
 }
 .product-accordion .accordion .accordion-item .accordion-header .accordion-button::after{
     position:absolute;top:20px;right:10px;
+}
+/*****************/
+.why-vibranium-section{padding:100px 0;}
+.why-vibranium-section.dark-section{background-color:#f2f2f2;}
+.why-vibranium-section .right-text-section{text-align:right;}
+.why-vibranium-section .left-text-section{text-align:left;}
+.why-vibranium-section .img-right{text-align:right;}
+.why-vibranium-section .space-left{margin-left:55px;}
+.why-vibranium-section .space-right{margin-right:55px;}
+.why-vibranium-section h1{font-family:'Helvetica Bold';font-size:40px;text-transform:uppercase;padding-bottom:15px;}
+.why-vibranium-section p{font-family:'Microsoft Sans Serif';font-size:16px;text-transform:none;line-height:26px;}
+@media (max-width:991px){
+    .why-vibranium-section .space-left{margin-left:0;margin-bottom:55px;text-align:center;}
+    .why-vibranium-section .right-text-section{text-align:center;}
+    .why-vibranium-section .space-right{margin-right:0;margin-bottom:55px;text-align:center;}
+    .why-vibranium-section .left-text-section{text-align:center;}
+}
+/****************************/
+.wv-about-vibramium-section{padding:100px 0 50px;}
+.wv-about-vibramium-section .blue-section{
+    background-color:#0063d9;border-radius:18px;padding:50px;overflow:hidden;position:relative;
+    box-shadow: 0px 8px 25px 0px rgba(0,99,217,0.75);
+-webkit-box-shadow: 0px 8px 25px 0px rgba(0,99,217,0.75);
+-moz-box-shadow: 0px 8px 25px 0px rgba(0,99,217,0.75);
+}
+.wv-about-vibramium-section .blue-section h1{text-align:center;font-family:'Helvetica Bold';font-size:40px;text-transform:uppercase;padding-bottom:45px;color:#ffffff;}
+.wv-about-vibramium-section .blue-section .left-section{width:50%;float:left;}
+.wv-about-vibramium-section .blue-section .right-section{width:50%;float:left;}
+.wv-about-vibramium-section .blue-section{text-align:center;}
+.wv-about-vibramium-section .blue-section p{color:#ffffff;font-family:'Microsoft Sans Serif';font-size:16px;text-transform:none;line-height:26px;}
+.wv-about-vibramium-section .blue-section ul{list-style:none;margin:45px 0 0 0;padding:0;}
+.wv-about-vibramium-section .blue-section ul li{text-align:center;padding:0 25px 25px 25px;}
+.wv-about-vibramium-section .blue-section ul li span{font-family:'Helvetica Bold';font-size:51px;color:#ffffff;}
+.wv-about-vibramium-section .blue-section ul li span label{display:block;font-family:'Microsoft Sans Serif';font-size:16px;color:#ffffff;}
+.wv-about-vibramium-section .blue-section ul.three-col{display:flex;align-items:center;justify-content:center;}
+.wv-about-vibramium-section .blue-section ul.two-col{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;}
+.wv-about-vibramium-section .blue-section ul.two-col li{width:33.33%;}
+.wv-about-vibramium-section .blue-section .sepretor{
+    background-image:url(../images/sepretor-img.png);background-position:center;background-repeat:no-repeat;overflow:hidden;
+}
+.wv-about-vibramium-section .dark-section{background-color:#e5e9ee;border-radius:0 0 18px 18px;padding:75px 50px 50px 50px;margin:0 auto;width:95%;}
+.wv-about-vibramium-section .dark-section .two-box{margin-bottom:25px;}
+.wv-about-vibramium-section .dark-section .dark-box img{width:150px;margin-bottom:25px;}
+.wv-about-vibramium-section .dark-section .dark-box h1{font-family:'Helvetica Bold';font-size:32px;margin-bottom:15px;}
+.wv-about-vibramium-section .dark-section .dark-box p{font-family:'Microsoft Sans Serif';font-size:16px;text-transform:none;line-height:26px;}
+.wv-about-vibramium-section .dark-section ul.make-logos{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-end;}
+.wv-about-vibramium-section .dark-section ul.make-logos li{display:flex;align-items:center;justify-content:flex-start;}
+.wv-about-vibramium-section .dark-section ul.make-logos li span{font-family:'Helvetica Bold';font-size:20px;display:inline-block;width:200px;}
+.wv-about-vibramium-section .dark-section ul.make-logos li img{margin-right:15px;}
+.faq-title{font-family:'Helvetica Bold';font-size:32px;margin-bottom:45px;text-transform:uppercase; text-align:center;}
+@media (max-width:1380px){
+    .wv-about-vibramium-section .blue-section .sepretor{background-image:url(../images/sepretor-img-02.png);}
+}
+@media (max-width:1200px){
+    .wv-about-vibramium-section .blue-section .sepretor{background-image:none;}
+    .wv-about-vibramium-section .blue-section .left-section{width:100%;float:none;}
+    .wv-about-vibramium-section .blue-section .right-section{width:100%;float:none;padding-top:75px;}
+    .wv-about-vibramium-section .dark-section ul.make-logos{justify-content:center;align-items:center;padding-top:75px;}
+}
+@media (max-width:600px){
+    .wv-about-vibramium-section .blue-section ul.three-col{flex-wrap: wrap;}
+    .wv-about-vibramium-section .blue-section ul.two-col li{width:auto;}
 }
